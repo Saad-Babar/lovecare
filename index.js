@@ -18,7 +18,7 @@ $('.owl-crl1').owlCarousel({
 $('.olu-craosal').owlCarousel({
     // nav: true,
     loop: true,
-    margin: 10,
+    margin: 25,
     autoplay: true,
     center: true,
     autoplayTimeout: 3000,
@@ -33,5 +33,3 @@ $('.olu-craosal').owlCarousel({
         },
     }
 });
-
-

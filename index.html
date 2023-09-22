@@ -456,8 +456,8 @@
         <span class="testmonialspan">TESTIMONIAL</span>
         <h1 class="testmonialhed">What People Says</h1>
       </div>
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500" data-aos-once="false">
-        <div class=" owl-carousel  olu-craosal">
+      <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1500" data-aos-once="false">
+        <div class=" owl-carousel owl-theme olu-craosal">
           <!-- first  -->
           <div class="dicor">
             <div class="contenttha">
@@ -539,7 +539,7 @@
       <span class="orblog">OUR BLOG</span>
       <h1 class="orblogd">Recent From Blog</h1>
     </div>
-    <div class="row container">
+    <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-6 col-lg-4 d-flex">
           <div class="blog-entry justify-content-end" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100" data-aos-once="false">
@@ -671,25 +671,25 @@
   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script src="index.js"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>  AOS.init(); </script>
-<script>
-let valueDisplays = document.querySelectorAll(".num");
-  let interval = 10000;
-  
-  valueDisplays.forEach((valueDisplay) => {
-    let startValue = 0;
-    let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-    let duration = Math.floor(interval / endValue);
-    let counter = setInterval(function () {
-      startValue += 5;
-      valueDisplay.textContent = startValue;
-      if (startValue == endValue) {
-        clearInterval(counter);
-      }
-    }, duration);
-  });
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>  AOS.init(); </script>
+  <script>
+    let valueDisplays = document.querySelectorAll(".num");
+    let interval = 10000;
+    
+    valueDisplays.forEach((valueDisplay) => {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      let duration = Math.floor(interval / endValue);
+      let counter = setInterval(function () {
+        startValue += 5;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+        }
+      }, duration);
+    });
   </script>
-
+  
 </body>
 </html>

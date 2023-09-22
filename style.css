@@ -252,6 +252,7 @@ body div {
 .lowdiv {
     background-color: #E0D8CB;
     height: 126px;
+    padding-top: 30px;
 }
 
 .lowdiv:hover {
@@ -260,11 +261,11 @@ body div {
 }
 
 .rise {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .gol {
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .srch {
@@ -651,6 +652,12 @@ body div {
     .hnm {
         margin-top: 50px;
     }
+    .risa {
+        font-size: 40px;
+    }
+    .orblogd {
+        font-size: 40px;
+    }
 }
 
 .dicor {
@@ -849,4 +856,16 @@ body div {
 
 .owl-item.active.center .contenttha .fa-solid {
     color: #D49A3A !important;
+}
+
+/* .progress-wrap {
+    margin-bottom: -500px !important;
+} */
+
+.owl-dots button span {
+    background-color: white !important;
+}
+
+.owl-dots .active {
+    background-color: #D49A3A !important;
 }

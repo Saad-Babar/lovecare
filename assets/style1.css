@@ -1890,15 +1890,21 @@
         background: transparent;
         color: #d49a3a; }
     .btn.btn-secondary {
+      padding-right: 20px !important;
+      font-size: 15px !important;
+      padding-left: 20px !important;
       background: #0a686e !important;
       border: 1px solid #0a686e !important;
-      color: #fff !important; }
+      color: #fff !important;
+    }
       .btn.btn-secondary span {
-        color: #fff !important; }
+        color: #fff !important; 
+      }
       .btn.btn-secondary:hover {
         border: 1px solid #0a686e;
         background: transparent;
-        color: #0a686e; }
+        color: #0a686e; 
+      }
   
   .form-control {
     height: 45px;
@@ -2782,7 +2788,7 @@
       z-index: 0;
       padding: 0 30px 30px; }
       .blog-entry .text .heading {
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 0;
         font-weight: 500; }
         .blog-entry .text .heading a {

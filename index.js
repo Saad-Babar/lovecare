@@ -23,7 +23,15 @@ $('.olu-craosal').owlCarousel({
     center: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
-    slideBy:1
+    slideBy:1,
+    responsive : {
+        0 : {
+            items: 1,
+        },
+        768 : {
+            items: 3,
+        },
+    }
 });
 
 

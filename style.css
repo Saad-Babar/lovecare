@@ -832,6 +832,21 @@ body div {
     transition: 500ms;
   }
 
-  .owl-item.active .contenttha:last-child {
-        background-color: black !important;
+  .owl-item.active.center .contenttha {
+        background-color: #D49A3A !important;
   }
+  .owl-item.active.center .contenttha .txt {
+    color: white !important;
+}
+
+.owl-item.active.center .contenttha span {
+    color: white !important;
+}
+
+.owl-item.active.center .contenttha .qout {
+    background-color: white !important;
+}
+
+.owl-item.active.center .contenttha .fa-solid {
+    color: #D49A3A !important;
+}

@@ -1,8 +1,8 @@
-$('.owl-carousel').owlCarousel({
+$('.owl-crl1').owlCarousel({
     // nav: true,
     loop: true,
     margin: 20,
-    autoplay: false,
+    autoplay: true,
     autoplayTimeout: 3000,
     autoplayHoverPause: true,
     responsive : {
@@ -15,13 +15,15 @@ $('.owl-carousel').owlCarousel({
     }
 });
 
-$('.owl-carousel1').owlCarousel({
+$('.olu-craosal').owlCarousel({
     // nav: true,
     loop: true,
     margin: 10,
-    autoplay: false,
+    autoplay: true,
+    center: true,
     autoplayTimeout: 3000,
-    // autoplayHoverPause: true,
+    autoplayHoverPause: true,
+    slideBy:1
 });
 
 
